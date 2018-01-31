@@ -1,7 +1,9 @@
 # minimal oAuth & jwt example using Google oauth
 
 Notes:
-- you will need to create an app with Google oauth
+- you will need to create an app with
+[Google Oauth](https://developers.google.com/identity/protocols/OAuth2),
+[Google console](https://console.developers.google.com/)
 - mongodb to must be running first
 - environment variables required
     - PORT
