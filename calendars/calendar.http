@@ -1,0 +1,6 @@
+@server = http://localhost:3000
+
+###
+GET {{server}}/calendar
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE1MTczNTg1ODUsImV4cCI6MTUxNzk2MzM4NSwic3ViIjoiNWE3MDRiYWMxMzcwZDQ4ZGRhN2UxZTE4In0.cF-nwcjo_dENmVqTsRBRSUylYGAT6Vx2i6reqc7i3_g
