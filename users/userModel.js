@@ -1,7 +1,9 @@
 const mongoose = require('../db/init')
 const timestamps = require('mongoose-timestamp')
 const passportLocalMongoose = require('passport-local-mongoose')
-const findOneOrCreate = require('mongoose-findoneorcreate')
+
+// developer used typescript so they export "default"
+const { default: findOneOrCreate } = require('mongoose-findoneorcreate')
 
 
 var userSchema = new mongoose.Schema({
